@@ -5,7 +5,7 @@ export default class Hello extends Command {
     person: Args.string({description: 'Person to say hello to', required: true}),
   }
 
-  static description = 'Say hello'
+  static description = 'Say hello errr'
 
   static examples = [
     `$ oex hello friend --from oclif
