@@ -11,10 +11,10 @@
     "static login"
   ],
   "type": "commonjs",
-  "types": "./dist/index.d.ts",
-  "main": "./dist/index.js",
+  "types": "/dist/index.d.ts",
+  "main": "/dist/index.js",
   "bin": {
-    "static-login-cli": "./dist/index.js"
+    "static-login-cli": "/dist/index.js"
   },
   "engines": {
     "node": ">=20.0.0"
