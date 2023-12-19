@@ -5,6 +5,11 @@
   "homepage": "https://github.com/static-login/static-login-cli",
   "license": "MIT",
   "repository": "static-login/static-login-cli",
+  "version": "1.1.5",
+  "bugs": "https://github.com/static-login/static-login-cli/issues",
+  "keywords": [
+    "static login"
+  ],
   "type": "commonjs",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
@@ -24,11 +29,6 @@
     "posttest": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.1.5",
-  "bugs": "https://github.com/static-login/static-login-cli/issues",
-  "keywords": [
-    "static login"
-  ],
   "dependencies": {
     "commander": "^11.1.0",
     "figlet": "^1.7.0"
