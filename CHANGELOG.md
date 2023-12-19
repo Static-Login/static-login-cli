@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/static-login/static-login-cli/compare/v1.1.4...v1.1.5) (2023-12-19)
+
+
+### Bug Fixes
+
+* brand new ([be02bed](https://github.com/static-login/static-login-cli/commit/be02bed00346549e9f4357e216d1237475001685))
+
 ## [1.1.4](https://github.com/static-login/static-login-cli/compare/v1.1.3...v1.1.4) (2023-12-19)
 
 
