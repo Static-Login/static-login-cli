@@ -1,15 +1,12 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "module": "Node16",
-    "outDir": "dist",
     "rootDir": "src",
+    "outDir": "dist",
     "strict": true,
-    "target": "es2022",
-    "moduleResolution": "node16"
-  },
-  "include": ["./src/**/*"],
-  "ts-node": {
-    "esm": true
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
   }
 }
