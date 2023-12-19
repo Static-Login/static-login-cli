@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/static-login/static-login-cli/compare/v1.1.5...v1.1.6) (2023-12-19)
+
+
+### Bug Fixes
+
+* add shebang ([f963adc](https://github.com/static-login/static-login-cli/commit/f963adc7690439317b4949e48a8b34f2a9c884c0))
+
 ## [1.1.5](https://github.com/static-login/static-login-cli/compare/v1.1.4...v1.1.5) (2023-12-19)
 
 
