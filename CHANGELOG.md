@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/static-login/static-login-cli/compare/v1.1.1...v1.1.2) (2023-12-19)
+
+
+### Bug Fixes
+
+* remove git ignore ([0640263](https://github.com/static-login/static-login-cli/commit/0640263b97977631844db0b939b1277dfe60b4d0))
+* things ([210fbdc](https://github.com/static-login/static-login-cli/commit/210fbdc8b568a11b5b459237ea1cf6f71d087c70))
+
 ## [0.4.10](https://github.com/oclif/hello-world/compare/0.4.9...0.4.10) (2023-12-09)
 
 
@@ -294,6 +302,3 @@
 ### Bug Fixes
 
 * **deps:** bump @oclif/core from 2.9.4 to 2.10.0 ([27cc5bb](https://github.com/oclif/hello-world/commit/27cc5bb44cc4aee53f74bfaef39c1fe03e637d72))
-
-
-
