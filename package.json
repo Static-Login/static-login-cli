@@ -12,6 +12,7 @@
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
     "@oclif/test": "^3",
+    "@semantic-release/git": "^10.0.1",
     "@types/chai": "^4",
     "@types/mocha": "^10",
     "@types/node": "^18",
@@ -72,11 +73,5 @@
   ],
   "types": "dist/index.d.ts",
   "exports": "./lib/index.js",
-  "type": "module",
-  "release": {
-    "branches": [
-      "main",
-      "next"
-    ]
-  }
+  "type": "module"
 }
