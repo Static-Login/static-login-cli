@@ -1,3 +1,11 @@
+## [1.1.7](https://github.com/static-login/static-login-cli/compare/v1.1.6...v1.1.7) (2023-12-19)
+
+
+### Bug Fixes
+
+* add git ignore ([58bdd20](https://github.com/static-login/static-login-cli/commit/58bdd20698b7c5ea8c551f6dad8faeaf41dd40b7))
+* remove git ignore ([31a0ca0](https://github.com/static-login/static-login-cli/commit/31a0ca07098986feccddafdd5054896e7d142a3e))
+
 ## [1.1.6](https://github.com/static-login/static-login-cli/compare/v1.1.5...v1.1.6) (2023-12-19)
 
 
