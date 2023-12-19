@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/static-login/static-login-cli/compare/v1.1.7...v1.1.8) (2023-12-19)
+
+
+### Bug Fixes
+
+* paths ([0571c76](https://github.com/static-login/static-login-cli/commit/0571c76a0db44c0a53af6e5e0496a63408ea5305))
+
 ## [1.1.7](https://github.com/static-login/static-login-cli/compare/v1.1.6...v1.1.7) (2023-12-19)
 
 
