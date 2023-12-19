@@ -1,14 +1,45 @@
 {
+  "name": "static-login-cli",
+  "description": "Manage your staticly generated site.  Behind login.",
   "author": "Shaun Sweet",
+  "homepage": "https://github.com/static-login/static-login-cli",
+  "license": "MIT",
+  "main": "",
+  "repository": "static-login/static-login-cli",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "exports": "./lib/index.js",
   "bin": {
     "static-login-cli": "./bin/run.js"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "/bin",
+    "/dist",
+    "/oclif.manifest.json"
+  ],
+  "scripts": {
+    "build": "shx rm -rf dist && tsc -b",
+    "lint": "eslint . --ext .ts",
+    "postpack": "shx rm -f oclif.manifest.json",
+    "posttest": "npm run lint",
+    "prepack": "npm run build && oclif manifest && oclif readme",
+    "prepare": "npm run build",
+    "test": "mocha --forbid-only \"test/**/*.test.ts\"",
+    "version": "oclif readme && git add README.md"
+  },
+  "version": "1.1.2",
+  "bugs": "https://github.com/static-login/static-login-cli/issues",
+  "keywords": [
+    "oclif"
+  ],
   "dependencies": {
     "@oclif/core": "^3",
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^4"
   },
-  "description": "Manage your staticly generated site.  Behind login.",
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
     "@oclif/test": "^3",
@@ -28,51 +59,5 @@
     "shx": "^0.3.4",
     "ts-node": "^10.9.2",
     "typescript": "^5"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "files": [
-    "/bin",
-    "/dist",
-    "/oclif.manifest.json"
-  ],
-  "homepage": "https://github.com/static-login/static-login-cli",
-  "license": "MIT",
-  "main": "",
-  "name": "static-login-cli",
-  "oclif": {
-    "bin": "static-login-cli",
-    "dirname": "static-login-cli",
-    "commands": "./dist/commands",
-    "plugins": [
-      "@oclif/plugin-help",
-      "@oclif/plugin-plugins"
-    ],
-    "topicSeparator": " ",
-    "topics": {
-      "hello": {
-        "description": "Say hello to the world and others"
-      }
-    }
-  },
-  "repository": "static-login/static-login-cli",
-  "scripts": {
-    "build": "shx rm -rf dist && tsc -b",
-    "lint": "eslint . --ext .ts",
-    "postpack": "shx rm -f oclif.manifest.json",
-    "posttest": "npm run lint",
-    "prepack": "npm run build && oclif manifest && oclif readme",
-    "prepare": "npm run build",
-    "test": "mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif readme && git add README.md"
-  },
-  "version": "1.1.2",
-  "bugs": "https://github.com/static-login/static-login-cli/issues",
-  "keywords": [
-    "oclif"
-  ],
-  "types": "dist/index.d.ts",
-  "exports": "./lib/index.js",
-  "type": "module"
+  }
 }
