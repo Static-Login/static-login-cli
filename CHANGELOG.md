@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/static-login/static-login-cli/compare/v1.1.3...v1.1.4) (2023-12-19)
+
+
+### Bug Fixes
+
+* text ([c76df16](https://github.com/static-login/static-login-cli/commit/c76df166ca006bf57aa56a4429300546792ba321))
+
 ## [1.1.3](https://github.com/static-login/static-login-cli/compare/v1.1.2...v1.1.3) (2023-12-19)
 
 
