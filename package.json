@@ -5,7 +5,7 @@
   "homepage": "https://github.com/static-login/static-login-cli",
   "license": "MIT",
   "repository": "static-login/static-login-cli",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "bugs": "https://github.com/static-login/static-login-cli/issues",
   "keywords": [
     "static login"

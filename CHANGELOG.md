@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/static-login/static-login-cli/compare/v1.1.8...v1.1.9) (2023-12-19)
+
+
+### Bug Fixes
+
+* add dist back in ([5ac60a5](https://github.com/static-login/static-login-cli/commit/5ac60a5dce34af96093502be1aec0ffcb102dbab))
+
 ## [1.1.8](https://github.com/static-login/static-login-cli/compare/v1.1.7...v1.1.8) (2023-12-19)
 
 
