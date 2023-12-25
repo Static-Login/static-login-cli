@@ -4,6 +4,7 @@
 /.idea
 /.nyc_output
 /lib
+/dist
 /tmp
 /yarn.lock
 node_modules

@@ -1,12 +1,26 @@
 {
+  // https://www.typescriptlang.org/tsconfig#compilerOptions
   "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "dist",
-    "strict": true,
-    "target": "es6",
-    "module": "commonjs",
-    "sourceMap": true,
     "esModuleInterop": true,
-    "moduleResolution": "node"
-  }
+    "lib": [
+      "es2020"
+    ],
+    "module": "es2022",
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "target": "es2022",
+    "types": [
+      "node"
+    ],
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
