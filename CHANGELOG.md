@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/static-login/static-login-cli/compare/v1.1.9...v1.2.0) (2023-12-25)
+
+
+### Features
+
+* add zip functionality example ([70fb69a](https://github.com/static-login/static-login-cli/commit/70fb69adbd37e9542f7c9e1695b029630a05e4ad))
+
 ## [1.1.9](https://github.com/static-login/static-login-cli/compare/v1.1.8...v1.1.9) (2023-12-19)
 
 
