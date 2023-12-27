@@ -31,17 +31,17 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.476.0",
-    "@types/adm-zip": "^0.5.5",
-    "adm-zip": "^0.5.10",
     "axios": "^1.6.2",
     "commander": "^11.1.0",
-    "figlet": "^1.7.0"
+    "figlet": "^1.7.0",
+    "tar": "^6.2.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/figlet": "^1.5.8",
     "@types/node": "^18.19.3",
+    "@types/tar": "^6.1.10",
     "eslint": "^8",
     "semantic-release": "^22.0.12",
     "typescript": "^5.3.3"
