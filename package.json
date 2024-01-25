@@ -41,7 +41,7 @@
     "@semantic-release/git": "^10.0.1",
     "@types/figlet": "^1.5.8",
     "@types/node": "^18.19.3",
-    "@types/tar": "^6.1.10",
+    "@types/tar": "^6.1.11",
     "eslint": "^8",
     "semantic-release": "^22.0.12",
     "typescript": "^5.3.3"
